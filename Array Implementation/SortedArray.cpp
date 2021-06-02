@@ -19,7 +19,7 @@ bool isSorted(int arr[], int n)
 /*
 this checking can also be done by using two for loops 
 it will traverse to each element and compare it with the next occurring elements
-but the time complexity becomes too big
+but the time complexity becomes too big 
 */
 
 void output(int arr[], int n)
