@@ -9,17 +9,17 @@ Node * deleteNode(Node *head, int i)
 {
 	if(head == NULL)
 	{
-		return NULL;
+		return NULL;       //base case
 	}
 	if(i == 0)
 	{
-		Node *temp = head -> next;
-		delete head;
+		Node *temp = head -> next;         //small calculations
+		delete head;           //deallocation of memory
 		head = temp;
 		return head;
 	}
 	Node *a = head -> next; 
-	Node *b =  deleteNode(a, i-1);	
+	Node *b =  deleteNode(a, i-1);	 //recursion call
 	head -> next = b;
 }
 
