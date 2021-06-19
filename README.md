@@ -5,3 +5,4 @@
 3. Dynamic Memory Allocation
 4. Arrays
 5. OOPs
+6. Linked List
