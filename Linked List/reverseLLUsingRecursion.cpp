@@ -1,5 +1,5 @@
 //reversing linked list using recursion
-
+//complixity is n^2
 #include<iostream>
 using namespace std;
 
