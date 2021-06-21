@@ -6,6 +6,7 @@ using namespace std;
 
 Node * mergeLL(Node *head1, Node *head2)
 {
+	//if one of ll is null
 	if (head1 == NULL)
 	{
     	return head2;
@@ -30,7 +31,7 @@ Node * mergeLL(Node *head1, Node *head2)
 	
 	Node *finaltail = finalhead;
 	
-	while(head1 != NULL && head2 != NULL)
+	while(head1 != NULL && head2 != NULL)       
 	{
 		if(head1 -> data < head2 -> data)
 		{
@@ -46,7 +47,7 @@ Node * mergeLL(Node *head1, Node *head2)
 		}
 		
 	}
-	
+	//when one of linked list reaches to its end
 	if(head1 != NULL)
 	{
 		finaltail -> next = head1;
