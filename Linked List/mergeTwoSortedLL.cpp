@@ -98,15 +98,17 @@ void print(Node *head)
 
 int main()
 {
-	cout << "Enter data of 1st linked list: " <<endl;
+	cout << "Enter data of 1st linked list in sorted order: " <<endl;
 	Node *head1 = createLL();
-	cout << "Enter data of 2nd linked list: " <<endl;
+	cout << "Enter data of 2nd linked list in sorted order: " <<endl;
 	Node *head2 = createLL();
+	/*
 	print(head1);
 	cout << endl;
 	
 	print(head2);
 	cout << endl;
+	*/
 	
 	Node * merged = mergeLL(head1, head2);
 	print(merged);
