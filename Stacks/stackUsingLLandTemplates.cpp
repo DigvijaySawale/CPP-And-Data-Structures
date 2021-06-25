@@ -51,6 +51,7 @@ class Stack
 			{
 				return false;
 			}
+			//or return size == 0;   //this will also work same as above
 		}
 		
 		void push(T dt)
