@@ -1,0 +1,24 @@
+If we save a file which contains a class as "filename.h" 
+it creates its header file of that file containing class
+and it can be used same as #include "file.cpp" as 
+-------#include "filename.h"------
+
+.h file must not contain the main() function
+where .cpp may contain main()
+
+"" denotes that the file must be in the same folder
+
+we can use all properties of .h file in the current file then.
+
+--------------------------------------------------------------------
+to use inbuit stack of cpp
+use #include<stack>
+it is also a template stack i.e. to create its obj  we have to use 
+----------stack <int> s1;-----
+
+functions for built in stack
+1. push() - inserts element in stack
+2. pop() - it deletes the top element but doesnt returns it
+3. top() -returns top element
+4. size() - returns size of stack
+5. empty() - checks if stack is empty or not (it is bool type)
