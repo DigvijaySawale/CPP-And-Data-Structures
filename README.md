@@ -1,5 +1,5 @@
 # CPP-And-Data-Structures
-All important data structures and their codes
+All important C++ topics and data structures 
 
 1. Recursion
 2. Pointers
